@@ -22,7 +22,7 @@
 
             <main>
                 <p>Contact Form</p>
-                <form>
+                <form id="contact-form">
                   <!--This is a comment in HTML. It lets you write text that
                   won't be rendered in the webpage.-->
                   <label for="name">Name</label>
@@ -31,14 +31,14 @@
                   <!--The "for" attribute references the "name" attribute in <input>.
                   The "name" attribute is necessary once we start tying in JavaScript-->
                   <label for="email">Email</label>
-                  <input type="email" id="email" name="email" placeholder="Email" />
+                  <input type="email" id="email" name="email" placeholder="Email" required/>
                   <br><br>
                   </select>
-                  <label for="comments">Comments</label>
+                  <label for="message">Message</label>
                   <textarea
-                    id="comments"
-                    name="comments"
-                    placeholder="Comments"
+                    id="message"
+                    name="message"
+                    placeholder="Message"
                     required
                   ></textarea>
                   <br><br>
