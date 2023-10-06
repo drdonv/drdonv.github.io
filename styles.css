@@ -1,0 +1,90 @@
+a:link {
+  color: blue;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:active {
+  color: red;
+}
+
+a:hover {
+  color: green;
+  text-decoration: none;
+}
+
+input:focus {
+  border: 1px solid #aaa;
+}
+.page-title {
+  font-family: 'Trebuchet MS', sans-serif;
+  background-color: rgb(0, 191, 255);
+  
+}
+body {
+  font-size: 18px;
+}
+
+p {
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 14px;
+}
+p,
+h1,
+.titles {
+  color: #000;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+.logo {
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+img {
+  padding: 10px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.logo {
+  font-family: Papyrus, fantasy;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-left: 5%
+}
+
+ul.nav-list {
+  display: inline;
+  margin-left: 10%
+
+}
+li.nav {
+  display: inline-block;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 24px;
+  padding: 10px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black;
+  background-color: green;
+  margin-left: 100px;
+}
