@@ -125,3 +125,8 @@ ul.course-list {
   margin-left: 40px;
   color: lightblue;
 }
+
+.skill-list {
+  color: orange;
+  font-weight: bold;
+}
