@@ -7,13 +7,13 @@ type Blog = {
 
 const blogs: Blog[] = [
 	{
-		title: "Tip Day 2",
+		title: "Tip 2",
 		date: "10-22-2023",
 		description: "Don't panic if you're broke - get money.",
         slug: "blog2",
 	},
 	{
-		title: "Tip Day 1",
+		title: "Tip 1",
 		date: "10-21-2023",
 		description: "Don't become broke.",
         slug: "blog1",
@@ -22,7 +22,6 @@ const blogs: Blog[] = [
 
 function displayBlog() {
     const item = document.getElementById("blog")
-    console.log("test")
     blogs.forEach(({title, date, description, slug}) => {
         
         const blogpost = document.createElement('div')

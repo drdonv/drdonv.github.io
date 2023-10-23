@@ -1,20 +1,19 @@
 var blogs = [
     {
-        title: "Tip Day 2",
+        title: "Tip 2",
         date: "10-22-2023",
         description: "Don't panic if you're broke - get money.",
-        slug: "",
+        slug: "blog2",
     },
     {
-        title: "Tip Day 1",
+        title: "Tip 1",
         date: "10-21-2023",
         description: "Don't become broke.",
-        slug: "",
+        slug: "blog1",
     },
 ];
 function displayBlog() {
     var item = document.getElementById("blog");
-    console.log("test");
     blogs.forEach(function (_a) {
         var title = _a.title, date = _a.date, description = _a.description, slug = _a.slug;
         var blogpost = document.createElement('div');
